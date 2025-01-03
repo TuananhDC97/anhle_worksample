@@ -1,0 +1,11 @@
+{
+  "email": "qa@gmail",
+  "lastName": "Doe",
+  "firstName": "John",
+  "infoSource": "Search engines",
+  "servicesOfInterest": [
+    "Printing"
+  ],
+  "typeOfAssociation": "Prospect",
+  "explanation": "Interested in learning more about services"
+}

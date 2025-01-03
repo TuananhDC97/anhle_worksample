@@ -1,0 +1,9 @@
+{
+  "email": "example@example.com",
+  "lastName": "Doe",
+  "firstName": "John",
+  "infoSource": "Search engines",
+  "servicesOfInterest": ["Printing", "Logistics"],
+  "typeOfAssociation": "Prospect",
+  "explanation": "Interested in learning more about services"
+}
