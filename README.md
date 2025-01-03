@@ -1,6 +1,7 @@
 # AnhLe: Playwright End to End Automation Tests
 # Introduction
-This is a sample project of Anh Le to apply on RakSul's Automation QA position
+This is a sample project of Anh Le to apply on RakSul's Automation QA position.
+Also this is test case design: https://docs.google.com/spreadsheets/d/1J4Ox8H7YNJBLmkVvFrPUeabgUmx7a6AB/edit?usp=sharing&ouid=109965341384140784685&rtpof=true&sd=true
 using:
 - Playwright https://playwright.dev/
 - TypeScript https://www.typescriptlang.org/
@@ -32,19 +33,16 @@ Pre-condition: Already installed NodeJS, if not please download here: https://no
 2. To open Playwright UI Mode: `npx playwright test --ui`
 
 3. To run specific test by tag: `npx playwright test --grep "@{tag}"` 
-ex: run all test cases have user tag: `npx playwright test --grep "@user"`
+ex: run all test cases have user tag: `npx playwright test --grep "@email"`
 
 4. To run specific test by test name: `npx playwright test --grep "{name}"`
-ex: run all test cases have user tag: `npx playwright test --grep "Manual Login"` (exact or contains are acceptable)
+ex: run all test cases have user tag: `npx playwright test --grep "WS_01"` (exact or contains are acceptable)
 
 5. To run headed mode: `npx playwright test --headed`
 
 6. To run in specific browser: `npx playwright test --project {browser}` (all is default, includes chromium, firefox, webkit)
 
-7. To run in specific environment and site: `ENVIRONMENT={environment} SITE={site} npx playwright test`
-ex: `ENVIRONMENT=staging SITE=admin npx playwright test` - run all test for admin site in staging environment
-
-8. To open report of last run: `npx playwright show-report playwright-report/{report folder name}`
+7. To open report of last run: `npx playwright show-report playwright-report/{report folder name}`
 ex: `npx playwright show-report playwright-report/Automation_Execution_Report_31.10.2024_16.23.17`
 You could find the report folder name in the "playwright-report" folder after running the test
 
