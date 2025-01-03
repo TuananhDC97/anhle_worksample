@@ -1,7 +1,9 @@
 # AnhLe: Playwright End to End Automation Tests
 # Introduction
 This is a sample project of Anh Le to apply on RakSul's Automation QA position.
-Also this is test case design: https://docs.google.com/spreadsheets/d/1J4Ox8H7YNJBLmkVvFrPUeabgUmx7a6AB/edit?usp=sharing&ouid=109965341384140784685&rtpof=true&sd=true
+
+Also this is test case design link: https://docs.google.com/spreadsheets/d/1J4Ox8H7YNJBLmkVvFrPUeabgUmx7a6AB/edit?usp=sharing&ouid=109965341384140784685&rtpof=true&sd=true
+
 using:
 - Playwright https://playwright.dev/
 - TypeScript https://www.typescriptlang.org/
