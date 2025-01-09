@@ -1,6 +1,6 @@
 # AnhLe: Playwright End to End Automation Tests
 # Introduction
-This is a sample project of Anh Le to apply on RakSul's Automation QA position.
+This is a sample project of Anh Le
 
 Also this is test case design link: https://docs.google.com/spreadsheets/d/1J4Ox8H7YNJBLmkVvFrPUeabgUmx7a6AB/edit?usp=sharing&ouid=109965341384140784685&rtpof=true&sd=true
 
@@ -49,4 +49,4 @@ ex: `npx playwright show-report playwright-report/Automation_Execution_Report_31
 You could find the report folder name in the "playwright-report" folder after running the test
 
 ## 🎬 License
-AnhLe © 2025
+AnhLe ©
